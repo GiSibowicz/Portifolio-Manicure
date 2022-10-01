@@ -1,0 +1,172 @@
+body{
+    background-color: #f7d3d3; 
+}
+img{
+    max-width:100%;
+    display:block
+}
+.flex{
+    margin: 10px auto;
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1300px;
+    }
+.flex > div{
+    margin: 10px 10px;
+    flex: 1 1 300px;
+}
+.header{
+    background-color: #f7d3d3;
+    }
+.hello{
+    display: flex;
+    background: linear-gradient(to bottom, #f7d3d3 0%, #ffb6c1 100%);
+}
+.logotipo{
+    max-width: 250px;
+    margin: 0 auto;
+}
+.textinho{
+    padding: 50px; 
+    align-items: center;
+    text-align: center;
+    width: 50%;
+    margin-left: 70px;
+}
+ul,li,p{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+a{
+  cursor: pointer;
+  padding: 10px;  
+}
+.menu{
+    margin-top: 40px;
+    margin-bottom: 40px;
+    padding: 10px;
+    justify-content: center;
+    gap: 50px;
+    align-items: center;
+    display: flex;
+    background-color: #ffaeae;
+}
+.menu li{
+    font-size: 21px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+}
+.perfil{
+    width: 50%;
+    background: linear-gradient(to bottom, #f7d3d3 0%, #ffb6c1 100%);
+    }
+.perfil img{
+    max-width: 350px;
+    padding: 10px 10px 40px 10px;
+    margin: 0 auto;
+    box-shadow: 5px 10px 8px #888888;
+    background-color: white;
+}
+.main {
+    background: linear-gradient(to bottom, #ffb6c1 0%, #f7d3d3 100%);
+    
+}
+.cartao {
+    display: flex;
+    background-color: #f7d3d3;
+    border:5px solid pink;
+    margin: 50px;
+}
+.cartao div img {
+    margin-top: 80px;
+    margin-left: 180px;
+}
+.textao{
+    text-align: left;
+    padding: 50px;
+    width: 50%;
+}
+.contato{       
+    border: none;    
+    background-color: rgb(255, 255 , 255,0.3);    
+    box-sizing: border-box;   
+}
+
+.contato h1{
+    text-align: center;
+}
+
+form{
+    margin: 0 60px;
+    display: flex;
+    width: 50%;
+    margin: 0 auto;
+}
+
+label{
+    display: block;
+    margin: 10px ;
+}
+
+input{
+   width: 100%;
+   padding: 10px;
+   box-sizing: border-box;
+   outline: none;
+   resize:none;
+   border: none;
+   border-bottom: 1px solid #d3d3d3;
+
+}
+textarea{
+   width: 100%;
+   padding: 10px;
+   box-sizing: border-box;
+   outline: none;
+   resize:none;
+   border: 1px solid #d3d3d3;
+}
+
+input[type="text"]:focus{
+    border-bottom: 1px solid rgb(255, 0, 110);
+}
+
+textarea:focus{
+    border: 1px solid rgb(255, 0, 110);
+}
+
+.contato-form{
+    width: 500px;
+
+}
+.mensagem-form{
+    margin: 0 40px;
+}
+
+.center{
+    text-align: center;
+}
+
+input[type="submit"]{
+    margin-top: 10px;
+    background-color: rgba(255, 0, 111, 0.356);    
+    cursor: pointer;
+    font-size: 18px;
+    color: white;
+    border-radius: 3px;    
+}
+
+footer{
+    background-color: #f7d3d3 ;  
+}
+
+footer img{
+    width: 50px;
+}
+
+.icones{
+    display: flex;       
+    gap: 40px;
+    margin-left: 635px;    
+}

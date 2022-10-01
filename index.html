@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Samy Nails Designer</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    <script src="script.js"></script>
+    <header class="header">        
+        <img class="logotipo" src="assets/Logocerta.png">
+        <div style="text-align:center"> 
+        <span style="font-size: 27px; font-family: sans-serif; margin: 0 auto;">
+            SAMY NAILS DESIGNER
+        </span>
+        </div>
+        <br>
+        <div style="text-align:center"> 
+        <span style="font-size: 17px; font-family: sans-serif;">
+            UM PRAZER DEIXAR SEU DIA MAIS COLORIDO
+        </span>
+        </div>
+        <nav>
+            <ul class="menu">
+                <li><a onclick="IrParaPortifolio()">Portfólio</a></li>
+                <li><a onclick="IrParaSobre()";>Sobre</a></li>
+                <li><a onclick="IrParaContato()">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main class="main">
+        <section class="hello">
+            <div class="textinho"><h1>Este é meu portifólio profissional.</h1>
+            <h2>Criei com muito carinho pra você que já é cliente ter muitas inspirações, e pra quem ainda não é, conhecer e ver o quanto me dedico ao meu trabalho.</h2>
+            </div>
+            <div class="perfil"><img src="assets/perfil.png">
+            </div>
+            
+        </section>
+        <section class="flex">
+            <div><img src="assets/unha 1.png"></div>
+            <div><img src="assets/unha2.png"></div>
+            <div><img src="assets/unha3.png"></div>
+            <div><img src="assets/unha4.png"></div>
+            <div><img src="assets/unha5.png" id="cartaofotos"></div>
+            <div><img src="assets/unha6.png"></div>
+            <div><img src="assets/unha7.png"></div>
+            <div><img src="assets/unha8.png"></div>
+            <div><img src="assets/unha9.png"></div>
+            <div><img src="assets/unha10.png"></div>
+            <div><img src="assets/unha11.png"></div>
+            <div><img src="assets/unha12.png"></div>
+            <div><img src="assets/unha13.png"></div>
+            <div><img src="assets/unha14.png"></div>
+            <div><img src="assets/unh15.png"></div>
+            <div><img src="assets/unha16.png"></div>
+            <div><img src="assets/unha17.png"></div>
+            <div><img src="assets/unha18.png"></div>
+            <div><img src="assets/unha19.png"></div>
+            <div><img src="assets/unha20.png"></div>
+            <div><img src="assets/unha 21.png"></div>
+            <div><img src="assets/unha 22.png"></div>
+            <div><img src="assets/unha 23.png"></div>
+            <div><img src="assets/unha 24.png"></div>
+            <div><img src="assets/unha 25.png"></div>
+            <div><img src="assets/unha 26.png"></div>
+            <div><img src="assets/unha 27.png"></div>
+            <div><img src="assets/unha 28.png"></div>
+            <div><img src="assets/unha 29.png"></div>
+            <div><img src="assets/unha 30.png"></div>
+            <div><img src="assets/unha 31.png"></div>
+            <div><img src="assets/unha 32.png"></div>
+            <div><img src="assets/unha 33.png"></div>
+            <div><img src="assets/unha 34.png"></div>
+            <div><img src="assets/unha 35.png"></div>
+            <div><img src="assets/unha 36.png"></div>
+            <div><img src="assets/unha 37.png"></div>
+            <div><img src="assets/unha 38.png"></div>
+            <div><img src="assets/unha 39.png"></div>
+            <div><img src="assets/unha 40.png"></div>
+            <div><img src="assets/unha 41.png"></div>
+            <div><img src="assets/unha 42.png"></div>
+            <div><img src="assets/unha 43.png"></div>
+            <div><img src="assets/unha 44.png"></div>
+
+        </section>
+        <section class="cartao" id="cartaosobremim">
+            <div><img src="assets/ferramentas.png"></div>
+            <div class= "textao"> <h1>Sobre mim</h1>
+            <h2><p>Meu nome é Samara, mais conhecida como Samy.
+                Tenho 27 anos.</p>
+                Sou natural do Rio Grande do Sul, porém também já morei no paraná.
+                <p>Sou manicure e Pedicure há mais de 10 anos, cheguei em Jaraguá do Sul a quase 8 anos e atuo desde então na região.</p>
+                <p>Como minhas clientes sempre dizem sou simpática, nunca estou de mau humor pois não é da minha personalidade atender mal humorada.</p>
+                <p>Não gosto de atrasos e sempre procuro ser o mais pontual possível.</p>
+                <p>Uma frase que gosto muito é:</p>
+                "Quem tem prazer no que faz, não trabalha NUNCA "
+                <p>Querem conhecer um pouquinho mais da Samy? Venha me conhecer e conhecer a minha equipe, estamos ansiosas para atendê-los.</p></h2>
+            </div>
+            
+        </section>
+        <section class="contato" id="cartaocontato">
+            <br>
+            <h1>Contato</h1>
+            <form>
+            <div class="contato-form">
+                <label for="nome">Nome</label>
+                <input type="text" id="nome" placeholder="Seu Nome">
+                <small class="error"></small>       
+                <label for="email">Seu E-mail</label>
+                <input type="text" id="email" placeholder="Seu E-mail"> 
+                <small class="error"></small>
+            </div> 
+
+            <div class="mensagem-form">
+                <label for="mensagem">Mensagem</label>
+                <textarea name="mensagem" id="mensagem" cols="60" rows="6"></textarea>
+                <small class="error"></small>
+            </div>
+            
+            </form>
+            <br>
+            <br>
+            <div class="center">
+                <input type="submit" value="Enviar" onclick="EnviarEmail()"></input>
+                <p id="sucesso"></p>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <br>
+        <div class="icones">
+            <div>
+                <a href="https://www.instagram.com/samy.nailsdesigner/">
+                    <img src="assets/Instaredondo.png" alt="instagram">
+                </a>            
+            </div>
+            <div>
+                <a href="https://www.facebook.com/samynaildesigner" src="assets/Facebook redondo.png" >
+                    <img src="assets/Facebook redondo.png" alt="facebook">
+                </a>           
+            </div>
+        </div>
+        <br>
+        <br>        
+    </footer>
+</body>
+</html>
